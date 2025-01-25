@@ -57,3 +57,43 @@ You will simulate the roles of two contributors: "Morgan" and "Jamie". Morgan wi
 
 ![event.characters](images/events_random.characters.png)
 
+
+
+3. Stage, commit, and push the changes directly to the main branch 
+
+(This simulates the team's existing codebase for the website):
+
+Steps:
+
+git add .
+
+git commit -m "Initial commit: 
+
+![first_commit_adding_wbpages](images/first_commit_adding_webpages.png)
+
+Add new web pages created"
+
+git push origin main
+
+![git_push](images/git_push_origin.png)
+
+
+Morgan's Work: Adding Book Reviews
+
+1. Create a branch for Morgan:
+
+![adding_new_branch](<images/Adding a new branch.png>)
+
+2. Add a new file *book_reviews.html* to represent the Book Reviews section:
+	![adding_new_book_file](images/adding_book_review_file.png)
+
+
+    3. Add a random text content into the file
+
+   ![add_random_text_book_review](<images/add_new _content_to books_review.png>) 
+
+4. Stage, commit, and push changes:
+
+- git add update_events.html
+- git commit -m "Updating Event Page"
+- git push origin update-events
