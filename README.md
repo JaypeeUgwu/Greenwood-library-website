@@ -29,7 +29,7 @@ You will simulate the roles of two contributors: "Morgan" and "Jamie". Morgan wi
 
 # Tasks
 
-### 1. In the main branch, using Visual Studio Code editor, ensure there are files for each of the web pages:
+## 1. In the main branch, using Visual Studio Code editor, ensure there are files for each of the web pages:
 
 - home.html
 - about_us.html
@@ -64,15 +64,15 @@ You will simulate the roles of two contributors: "Morgan" and "Jamie". Morgan wi
 
 Steps:
 
-git add .
+`git add .`
 
-git commit -m "Initial commit: 
+`git commit -m "Initial commit"` 
 
 ![first_commit_adding_wbpages](images/first_commit_adding_webpages.png)
 
 Add new web pages created"
 
-git push origin main
+`git push origin main`
 
 ![git_push](images/git_push_origin.png)
 
@@ -84,7 +84,7 @@ git push origin main
 ![new_branch_for_morgan](images/adding_new_branch.png)
 
 
-git checkout -b add-book-review
+`git checkout -b add-book-review`
 
 ## 2. Add a new file *book_reviews.html* to represent the Book Reviews section:
 
@@ -112,14 +112,13 @@ git checkout -b add-book-review
 
 ## Jamie's Work: Updating the Events Page
 
-git checkout -b update-events
+`git checkout -b update-events`
 
 ![Jamie's_update_events](images/Jamies_page_Update_events.png)
 
 - Adding content file
 
 ![Adding_content_file](images/Jamies_adding_random_content.png)
-
 
 
 4. Stage, commit, and push changes:
