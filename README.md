@@ -47,16 +47,15 @@ You will simulate the roles of two contributors: "Morgan" and "Jamie". Morgan wi
 
 - Random content into about_us.html
 
-![about_us.characters](images/about_us,characters.png)
+![about_us_characters](images/about_us.characters.png)
 
 - Random content into contact_us.html
 
-![contact_us.characters](images/contact_us.characters.png)
+![contact_us_characters](images/contact_us.characters.png)
 
 - Random content into events.html
 
-![event.characters](images/events_random.characters.png)
-
+![event_random_characters](images/events_random.characters.png)
 
 
 3. Stage, commit, and push the changes directly to the main branch 
@@ -78,22 +77,58 @@ git push origin main
 ![git_push](images/git_push_origin.png)
 
 
-Morgan's Work: Adding Book Reviews
+# Morgan's Work: Adding Book Reviews
 
-1. Create a branch for Morgan:
+## 1. Create a branch for Morgan:
 
-![adding_new_branch](<images/Adding a new branch.png>)
-
-2. Add a new file *book_reviews.html* to represent the Book Reviews section:
-	![adding_new_book_file](images/adding_book_review_file.png)
+![new_branch_for_morgan](images/adding_new_branch.png)
 
 
-    3. Add a random text content into the file
+git checkout -b add-book-review
+
+## 2. Add a new file *book_reviews.html* to represent the Book Reviews section:
+
+![book_review.html_added](images/adding_book_review_file.png)
+
+## 3. Add a random text content into the file
 
    ![add_random_text_book_review](<images/add_new _content_to books_review.png>) 
 
+## 4. Stage, commit, and push changes:
+
+- git add book.review.html
+- git commit -m "add book reviews section"
+- git push origin update-events
+
+!![stage,commit,push changes](images/stage_commit_push_changes.png))
+
+## 5. Raise a PR for Morgan's work:
+
+![Raising_PR_request](images/Pull-Request_Creation.png)
+
+## 6. Merge Morgan's work to the main branch:
+
+![Merging_PR_for_Morgan](images/Merging_Pull_Request_Morgan.png)
+
+## Jamie's Work: Updating the Events Page
+
+git checkout -b update-events
+
+![Jamie's_update_events](images/Jamies_page_Update_events.png)
+
+- Adding content file
+
+![Adding_content_file](images/Jamies_adding_random_content.png)
+
+
+
 4. Stage, commit, and push changes:
 
-- git add update_events.html
-- git commit -m "Updating Event Page"
-- git push origin update-events
+git add update_events.html
+git commit -m "Updating Event Page"
+git push origin update-events
+
+![Jamie's_add_update_&_commit](images/Jamie's_git_add_commit.png)
+
+
+![Jamie's_push_origin](images/Jamie's_push_origin.png)
